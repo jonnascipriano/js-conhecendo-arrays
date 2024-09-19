@@ -24,7 +24,7 @@ const numInt = [1,3,5,7,9]
 let soma = 0
 
 function arrSoma(array){
-    for(let i = 0; i < numInt.length; i++){
+    for(let i = 0; i < array.length; i++){
         soma += array[i]
     }
     console.log(soma)
